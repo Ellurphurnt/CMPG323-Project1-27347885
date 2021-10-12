@@ -2,6 +2,7 @@ package za.ac.nwu.ac.translator.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import za.ac.nwu.ac.domain.dto.AccountTypeDto;
 import za.ac.nwu.ac.domain.persistence.AccountType;
 import za.ac.nwu.ac.repo.persistence.AccountTypeRepository;
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
+@Service
 
 public class AccountTypeTranslatorImpl implements AccountTypeTranslator {
 
